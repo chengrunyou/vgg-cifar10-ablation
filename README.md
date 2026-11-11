@@ -1,6 +1,14 @@
 # 基于 VGG 的经典 CNN 架构研究与结构改进
 
-深度学习课程大作业。实验报告见同级的 `../基于VGG的经典CNN架构研究与结构改进报告.docx`。
+深度学习课程大作业。实验报告单独提交，不在本仓库内。
+
+仓库地址：https://github.com/chengrunyou/vgg-cifar10-ablation
+
+```bash
+git clone git@github.com:chengrunyou/vgg-cifar10-ablation.git
+```
+
+数据和训练好的权重没有入库（合计约 1.4GB），clone 下来后照「运行 → 2. 准备数据」下载数据；不下载数据也能先跑 `tests/smoke_test.py` 做结构自检。
 
 ## 做了什么
 
