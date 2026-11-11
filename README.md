@@ -42,7 +42,7 @@ python -c "import torch; print(torch.__version__, torch.cuda.is_available())"
 ## 项目结构
 
 ```
-代码文件/
+vgg-cifar10-ablation/
 ├── models/                     # 网络定义
 │   ├── vgg.py                  # VGG-16，通过四个参数切换组件
 │   ├── layers.py               # 标准卷积 / 深度可分离卷积 / 激活 / 归一化
